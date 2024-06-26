@@ -28,17 +28,29 @@ Each candidate is described by 8 continuous variables, and a single class variab
 
 - EDA : The notebook contains initial Exploratary Analysis of the dataset, based on which the data preprocessing is carried out. The key features of the data and the correlation of each feature with the target_class can be seen in the notebook.
 
-- model : Based on the EDA, the training dataset has processed and for a High recall towards the positive class(1), the dataset has made to be biades towards positive class(1) by removing the negative class rows. Naive Beyed Classifier has chose to classify the signals into pulsars and not pulsar because of its capability of handling baised datasets.
+- model : Based on the EDA, the training dataset has processed and for a High recall towards the positive class(1), the dataset has made to be biades towards positive class(1) by removing the negative class rows. Naive Beyed Classifier has chose to classify the signals into pulsars and not pulsar because of its capability of handling baised datasets. The problem has solved with Neural Network with even more High recall for positive class.
 - pulsar_detection_model : the binary file contains the trained model in joblib format and can be user further projects to classify Pulsars.
 
-## Evaluation of the Model
+## Evaluation of the Model Naive Bayes
 - Accuracy Score 0.934
 - Precision
   - Pulsar 0.96
   - Not a Pulsar 0.90
 - Recall
-  - Pulsar 0.96
-  - Not a Pulsar 0.92
+  - Pulsar 0.92
+  - Not a Pulsar 0.96
 - f1 Score
   - Pulsar 0.94
   - Not a Pulsar 0.93
+ 
+## Evaluation of the Neural Network
+- Accuracy Score 0.9464
+- Precision
+  - Pulsar 0.95
+  - Not a Pulsar 0.95
+- Recall
+  - Pulsar 0.96
+  - Not a Pulsar 0.94
+- f1 Score
+  - Pulsar 0.95
+  - Not a Pulsar 0.94
