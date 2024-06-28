@@ -44,13 +44,13 @@ Each candidate is described by 8 continuous variables, and a single class variab
   - Not a Pulsar 0.93
  
 ## Evaluation of the Neural Network
-- Accuracy Score 0.9464
+- Accuracy Score 0.944
 - Precision
   - Pulsar 0.95
-  - Not a Pulsar 0.95
+  - Not a Pulsar 0.93
 - Recall
-  - Pulsar 0.96
-  - Not a Pulsar 0.94
+  - Pulsar 0.94
+  - Not a Pulsar 0.95
 - f1 Score
   - Pulsar 0.95
   - Not a Pulsar 0.94
